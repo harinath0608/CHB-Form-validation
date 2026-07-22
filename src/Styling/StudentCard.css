@@ -1,0 +1,13 @@
+.card {
+    width: 300px ;
+    padding: 20px ;
+    border: 1px solid black ;
+    background: cadetblue;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: brown;
+    padding: 10px 20px ;
+}
+
