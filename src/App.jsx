@@ -11,6 +11,7 @@ import ArrayState from './UseState-ReactHook/ArrayState'
 import FormInputs from './UseState-ReactHook/FormInputs'
 import Rendering_List from './Rendering_Lists/Rendering_List'
 import FormValidation from './Events&FormHandling/FormValidation'
+import FetchAPI from './UseEffect/FetchAPI'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <> 
-    <FormValidation />
+    <FetchAPI />
     </>
   )
 }
