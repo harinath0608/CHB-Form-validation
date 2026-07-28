@@ -7,3 +7,12 @@ Link
 NavLink
 useNavigate
 useParams
+
+
+Link vs NavLink  = Link checks the urls , NavLink checks active status of url
+
+Navbars, sidebars 
+
+
+
+
