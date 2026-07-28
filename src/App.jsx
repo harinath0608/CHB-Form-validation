@@ -18,6 +18,8 @@ import Home from './React-Router-DOM/pages/Home'
 import About from './React-Router-DOM/pages/About'
 import Contact from './React-Router-DOM/pages/Contact'
 import Blog from './React-Router-DOM/pages/Blog'
+import Products from './React-Router-DOM/pages/Products'
+import ProductDetail from './React-Router-DOM/pages/ProductDetail'
 
 
 function App() {
@@ -40,6 +42,11 @@ function App() {
         <Route path='/Contact' element={<Contact />} />
 
         <Route path='/Blog' element={<Blog />} />
+
+        <Route path='/Products' element = { <Products /> }/>
+
+
+        <Route path='/products/:id' element = { <ProductDetail/> }/>
 
       </Routes>
 

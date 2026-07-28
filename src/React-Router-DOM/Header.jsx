@@ -30,6 +30,10 @@ const Header = () => {
          <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/Blog" >blog</Link>
         </li>
+
+         <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/Products" > Products</Link>
+        </li>
   
    
       </ul>

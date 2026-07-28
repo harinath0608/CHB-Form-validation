@@ -14,5 +14,23 @@ Link vs NavLink  = Link checks the urls , NavLink checks active status of url
 Navbars, sidebars 
 
 
+Link = A normal door that takes you another room 
+
+NavLink = Smart Door tells "you are here"
+
+Navigate = Automatic Redirect
+
+useNavigate = Manual navigation by using triggers 
+
+
+useParams = it reads  the values from the urls
+
+
+
+Tasks:
+
+RouterDOM - Header
+useParams - Products 
+
 
 
