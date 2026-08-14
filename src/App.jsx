@@ -20,6 +20,8 @@ import Contact from './React-Router-DOM/pages/Contact'
 import Blog from './React-Router-DOM/pages/Blog'
 import Products from './React-Router-DOM/pages/Products'
 import ProductDetail from './React-Router-DOM/pages/ProductDetail'
+import Useref from './AdvancedHooks/Useref'
+import UseMemo from './AdvancedHooks/UseMemo'
 
 
 function App() {
@@ -29,11 +31,9 @@ function App() {
 
     <>
 
-      <Header />
+      {/* <Header /> */}
 
       <Routes>
-
-
 
         <Route path='/' element={<Home />} />
 
@@ -49,6 +49,10 @@ function App() {
         <Route path='/products/:id' element = { <ProductDetail/> }/>
 
       </Routes>
+
+      {/* <Useref />  */}
+
+      <UseMemo/>
 
 
 
